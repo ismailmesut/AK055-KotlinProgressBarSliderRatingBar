@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinprogressbarsliderratingbar"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinprogressbarsliderratingbar"
         minSdk = 24
